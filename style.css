@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    background: url("https://source.unsplash.com/collection/1053828") no-repeat center center fixed;
+    background-size: cover;
+}
+#overlay{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#quote {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 1px 1px 4px black;
+}
